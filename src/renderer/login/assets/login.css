@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;                                                                                                                                         
+    margin: 0; 
+    padding: 0;
+  }
+
+  #wrapper {
+    height: 100vh;
+    width: 100vw;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  a{color: #000;}
+	 .login{
+			width: 530px;
+			margin: 5px auto;
+			height: 250px;
+			position: relative;
+      /*border: 1px solid #CCC;*/
+      background: #FFF;
+			border-radius: 2px;
+			box-shadow: 0 0 8px 1px rgba(7, 25, 37, 0.5);
+    }
+    .login-header-btn{
+      height: 28px;
+      right: 5px;
+      top: 5px;
+      padding: 4px;
+      position: absolute;
+      z-index: 1999;
+    }
+    .login-header-btn p{
+      width: 100%;
+      height: 20px;
+      text-align: right;
+    }
+    .login-header-btn p i{
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      background: red;
+      cursor: pointer;
+    }
+    .login-header-btn p i.el-icon-closes{
+      background: url('./../assets/img/icon/checkCloseHover.png') left top no-repeat!important;      
+    }
+		.login .loginLeft{
+			width: 165px;
+			height: 250px;
+			background: url('./../assets/loginbg.png') left top no-repeat!important;
+			overflow: hidden;
+		}
+		.login .loginRight{
+			height: 250px;
+			width: 364px;
+			position: absolute;
+			right: 0;
+			top:0;
+			padding: 20px 40px 30px 40px;
+			box-sizing: border-box;
+		}
+		.login .loginRight .loginTop{
+			margin-bottom: 18px;
+		    color: #2B5A93;
+		    position: relative;
+		}
+		.loginRight .loginTop span:first-child{
+			font-size: 18px;
+			padding: 2px 30px 2px 0;
+			background: url('./../assets/img/icon/icon-1.png') right 2px no-repeat!important;
+		}
+		.loginRight .loginTop span:last-child{
+			font-size: 12px;
+			display: inline-block;
+			height: 22px;
+			line-height: 22px;
+			position: absolute;
+			/*letter-spacing:1px;*/
+      transform: scale(.9,.9);
+      overflow: hidden;
+		}
+		.login .loginRight .loginIn{
+			margin-bottom: 22px;
+      position: relative;
+		}
+		.login .loginRight .loginIn>div {
+			margin-bottom: 18px;
+    	width: 284px;
+    	border: 1px #8CABD1 solid;
+			border-radius: 4px;
+			position: relative;
+		}
+		.login .loginRight .loginIn input{
+			height: 40px;
+    	border: 0;
+    	padding-left: 40px;
+    	outline: none;
+    	border-radius: 4px;
+			background: #E4EFF7;
+			width: 282px;
+		}
+		.loginRight .loginIn input::-webkit-input-placeholder { color:#8CABD1; font-size: 12px;}
+		.loginIn span{
+			width: 18px;
+			height: 14px;
+			display: inline-block;
+			position: absolute;
+			z-index: 99;
+			top: 15px;
+			left: 6px;
+		}
+		.loginIn .userName span{
+			background: url('./../assets/img/icon/userName.png') right top no-repeat!important;
+		}
+		.loginIn .passWord span{
+			background: url('./../assets/img/icon/userName.png') right top no-repeat!important;
+		}
+		.loginBottom{
+			font-size: 12px;
+		}
+		.loginBottom .btnFooter{
+			display: inline-block;
+			vertical-align: middle;
+			color: #58595B;
+			position: relative;
+		}
+		.loginBottom button{
+			width: 96px;
+			height: 32px;
+			background-color:#1c569b;
+			border: 0;
+			color: #FFF;
+		}
+		.loginBottom input{
+			margin-left: 12px;
+			vertical-align: sub;
+		}
+		.loginBottom .btnFooter a{
+			color: #58595B;
+			margin-left:20px;
+		}
+    .logon_error{
+        position: absolute;
+        bottom: -20px;
+        font-size: 12px;
+        color: red;
+    }
